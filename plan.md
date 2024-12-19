@@ -1,8 +1,13 @@
+<!--
+This is a guide to build a service that will hook into the Bing public search engine.
+-->
+
+# This guide can be used to build a service that will hook into the Bing public search engine.
 
 Step 1: Basic Service Setup
 - Create a basic C++ project structure:
 -- Set up a C++ project using GNU C++ 17.
--- Include necessary libraries such as libcurl.
+-- Include necessary libraries such as `libcurl`.
 
 Step 2: API Implementation
 - Implement the API:
