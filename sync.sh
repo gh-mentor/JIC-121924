@@ -1,11 +1,19 @@
 # This bash script uses git to stage, commit, and push changes to a remote GitHub repository on branch main.
-# It assumes that the remote repository is already set up and that the local repository is already cloned.
 
-# Stage all changes
-git stage .
+# Stage changes.
+git add .
 
-# Commit changes with a message
-git commit -m "Update"
+# Commit changes with a message.
+git commit -m "Update files with latest changes"
 
-# Push changes to remote repository on branch main
-git push origin main
+# Define the branch name.
+BRANCH_NAME="main"
+
+# Push changes to the remote repository.
+git push origin $BRANCH_NAME
+
+
+
+
+
+
