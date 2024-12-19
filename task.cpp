@@ -84,8 +84,8 @@ int main()
         }
     };
 
-
-    const int steps = 10;
+    // set the value of steps to 100
+    const int steps = 100;
     execute(job, steps);
 
     return 0;
